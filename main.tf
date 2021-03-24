@@ -1,5 +1,5 @@
 module "linux_server" {
-  source = "git::ssh://git@github.com/bquinn-snow/tf-module-azure-linux-vm"
+  source = "git::https://github.com/bquinn-snow/tf-module-azure-linux-vm.git"
   hostname = var.hostname
   reg = var.reg
   environment = var.environment
